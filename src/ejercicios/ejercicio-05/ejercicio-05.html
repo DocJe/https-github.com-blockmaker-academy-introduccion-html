@@ -6,19 +6,33 @@
   <body>
     <h1>Ejercicio 5: Formularios</h1>
     <!-- Crea un formulario con el método "post" -->
-
+    <form action="#" method="post">
     <!-- Añade un campo de texto para el nombre con el atributo "name" establecido como "nombre" -->
-
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+      <br />
     <!-- Añade un campo de texto para el correo electrónico con el atributo "name" establecido como "email" -->
-
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+      <br />
     <!-- Añade un campo de selección para la edad con el atributo "name" establecido como "edad" -->
-    
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="18" max="99" required /><br /><br />
     <!-- Añade un campo de selección para el sexo con el atributo "name" establecido como "sexo" -->
-
+      <label for="genero">Género:</label>
+      <input type="radio" id="genero-m" name="genero" value="masculino" required />
+      <label for="genero-m">Masculino</label>
+      <input type="radio" id="genero-f" name="genero" value="femenino" />
+      <label for="genero-f">Femenino</label>
+      <br />
     <!-- Añade un campo de contraseña para la contraseña con el atributo "name" establecido como "contraseña" -->
-
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required />
+      <br />
     <!-- Añade un campo de confirmación de contraseña para la confirmación de contraseña con el atributo "name" establecido como "confirmación de contraseña" -->
-
+      <label for="confirm-password">Confirmar contraseña:</label>
     <!-- Añade un botón de envío con el valor "Enviar" -->
+      <button type="submit">Enviar</button>
+    </form>  
   </body>
 </html>
