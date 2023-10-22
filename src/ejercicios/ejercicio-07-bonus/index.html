@@ -1,9 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ejercicio 7: Mi Sitio Web Personal</title>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="../assets/favicon.ico"/>
+    <title>Comiccoin</title>
+    <meta name="description" content="Coleccionismo de comics por Blockchain"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- Links externos-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">  <!-- Hoja de estilos CSS utilizada a través de links externos-->
+
+    <link rel="stylesheet" src="styles.css" /> 
   </head>
+
   <body>
-    <!-- Crea tu sitio web personal -->
+    <h1 class="title">Bienvenidos a Comiccoin</h1>
+    <h2>Compra y Venta de comics para coleccionistas.</h2>
+    <p>Bajas comisiones, diferentes tipos de pagos y monedas: Transfer, Credit Card, PyP, Crypto.</p> <!-- Párrafo con contenido relevante -->
+    <p>Con la localización y protección Blockchain.</p>
+
+    <table>
+      <tr>
+        <th></th>
+      </tr>
+    </table>
+
+    <h3>Resgistrarse/Login:</h3>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+      <br />
+
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required />
+      <br />
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+      <br />
+
+      <button type="submit">Enviar</button>
+    </form>
+    
+    <h4>Compara y busca precios en otras plataformas y mercados</h4>
+    <nav>
+    <p><a href="https://www.todocoleccion.net/s/tebeos-comics" target="_blank">Todocoleccion</a>
+    <a href="https://es.wallapop.com/libros-pelis-musica/comics" target="_blank">Wallapop</a>
+    <a href="https://www.ebay.es/b/Comics/259104/bn_7115713622" target="_blank">Ebay.es</a>
+    <a href="https://www.ebay.com/sch/i.html?_from=R40&_nkw=comics+books&_sacat=0&_sop=16" target="_blank">Ebay.com</a>
+    <a href="https://www.comicoin.co.uk/"target="_blank">Comicoin.uk</a></p>
+    </nav>
+
+
+    <footer>
+      <p>Comiccoin © 2023</p>
+    </footer>
+    <script src="ruta-del-fichero.js" async defer></script> <!-- Carga de scripts de manera asíncrona para mejorar la velocidad de carga de la página -->
+    
   </body>
 </html>
